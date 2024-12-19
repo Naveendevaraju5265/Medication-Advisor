@@ -1,0 +1,113 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main container styling */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+#input-container,
+#output-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 1em 0;
+    padding: 1em;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 0.75em;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output-container h2 {
+    margin-bottom: 0.5em;
+}
+
+#output-text {
+    white-space: pre-wrap;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: white;
+}
+.frame {
+    background-color: #edf0ed;
+    border: solid 5vmin #eee;
+    border-bottom-color: #4CAF50;
+    border-left-color: #4CAF50;
+    border-radius: 2px;
+    border-right-color: #4CAF50;
+    border-top-color: #4CAF50;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+}
+
+.frame img {
+    width: 100%;
+}
+
+.frame h2 {
+    margin-top: 3.4em;
+    font-size: 1.1em;
+}
